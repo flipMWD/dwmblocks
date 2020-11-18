@@ -63,6 +63,7 @@ void getcmd(const Block *block, char *output)
 	if (!cmdf)
 		return;
 	int i = strlen(block->icon);
+	// start in *output after the len of the icon
 	fgets(output+i, CMDLENGTH-i-delimLen, cmdf);
 	i = strlen(output);
 	if (i == 0) {
