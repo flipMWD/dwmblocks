@@ -7,8 +7,8 @@ static const Block blocks[] = {
 	{ "  ",     "~/scripts/statusbar/cpu_fan",      5,          0},
 	{ "  ",     "~/scripts/statusbar/mem_used",     5,          0},
 	{ "  ",     "~/scripts/statusbar/bandwidth -i ' ' -o ' '", 1, 0},
-	{ "  ",     "~/scripts/statusbar/volume",       0,          10},
-	{ "  ",     "~/scripts/statusbar/kb_layout",    0,          12},
+	{ "  ",     "~/scripts/statusbar/volume",       5,          10},
+	{ "  ",     "~/scripts/statusbar/kb_layout",    5,          12},
 	{ "  ",     "~/scripts/statusbar/date_clock",   5,          0},
 };
 
